@@ -1,4 +1,4 @@
-* user may have to import javalib library prior to running
+Note: user may have to import javalib library prior to running
 # 2D World Game
 This is a 2D, top-down, tile-based game in which the player can explore randomly generated worlds and capture creatures.
 
