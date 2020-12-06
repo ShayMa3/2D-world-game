@@ -1,12 +1,9 @@
-# Build Your Own World Design Document
+* user may have to import javalib library prior to running
+# 2D World Game
+This is a 2D, top-down, tile-based game in which the player can explore randomly generated worlds and capture creatures.
 
-**Partner 1:**
-Shay Ma
-
-**Partner 2:**
-Amber Fang
-
-## Classes and Data Structures
+## Design Document
+### Classes and Data Structures
 MapRender Class: generates the world (draws rooms and hallways)
 
 Point Class: represents a point on the grid
@@ -24,7 +21,7 @@ Room Class: represents rooms
 Hallway Class: represents hallways, subclass of Room
 - open: an integer corresponding with of the hallway that is not already connected to a room
 
-## Algorithms
+### Algorithms
 generateMap(): 
 
 Note: Only draw if the room/hall fits inside the grid and does not overlap with any other rooms/halls.
@@ -35,6 +32,3 @@ Note: Only draw if the room/hall fits inside the grid and does not overlap with 
 3. If space permits, draw a random room that connects to the other end off the hall.
     - If not, select the previously drawn room and begin at step 2.
 4. Repeat steps 2 and 3 until all rooms and hallways are generated.
-
-
-## Persistence
